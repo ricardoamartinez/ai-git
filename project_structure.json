@@ -1,0 +1,75 @@
+{
+    "name": "CellularAutomata",
+    "type": "directory",
+    "children": [
+        {
+            "name": "src",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "__init__.py",
+                    "type": "file",
+                    "content": ""
+                },
+                {
+                    "name": "cell.py",
+                    "type": "file",
+                    "content": "Cell class implementation."
+                },
+                {
+                    "name": "grid.py",
+                    "type": "file",
+                    "content": "Grid class implementation for cellular automata."
+                },
+                {
+                    "name": "rules.py",
+                    "type": "file",
+                    "content": "Rules for cellular automata (e.g. Conway's Game of Life)."
+                },
+                {
+                    "name": "main.py",
+                    "type": "file",
+                    "content": "Main script to run the cellular automata simulation."
+                }
+            ]
+        },
+        {
+            "name": "data",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "initial_conditions.json",
+                    "type": "file",
+                    "content": "Initial conditions for the cellular automata simulation."
+                }
+            ]
+        },
+        {
+            "name": "docs",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "README.md",
+                    "type": "file",
+                    "content": "Project description and usage instructions."
+                }
+            ]
+        },
+        {
+            "name": "tests",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "test_cell.py",
+                    "type": "file",
+                    "content": "Unit tests for the Cell class."
+                },
+                {
+                    "name": "test_grid.py",
+                    "type": "file",
+                    "content": "Unit tests for the Grid class."
+                }
+            ]
+        }
+    ]
+}

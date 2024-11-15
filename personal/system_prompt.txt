@@ -1,0 +1,1 @@
+Convert the following thoughts directly into LaTeX Beamer slide code. Only provide the \begin{frame} to \end{frame}. Add as many intuited thoughts as you can to the slide. expand a bit and make it presentable.
